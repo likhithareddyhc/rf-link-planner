@@ -1,13 +1,14 @@
 {
   "name": "rf-link-planner",
   "engines": {
-  "node": ">=18"
-},
+    "node": ">=18"
+  },
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+   "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build --prod",
+  "vercel-build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -48,6 +49,7 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.9.5"
+    "typescript": "~3.9.5",
+    "vercel": "^48.12.0"
   }
 }
