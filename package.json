@@ -1,5 +1,8 @@
 {
   "name": "rf-link-planner",
+  "engines": {
+  "node": "14.x"
+},
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
